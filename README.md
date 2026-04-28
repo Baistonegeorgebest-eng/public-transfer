@@ -76,4 +76,12 @@
 - 小说原文受版权保护，仅在本地使用
 - `novel-txts/` 目录在 `.gitignore` 中，不推送到 GitHub
 
-_Last updated: 2026-04-29 00:05 GMT+8_
+## 教训记录
+
+1. **永远不要把整个 workspace 文件夹推到 git 仓库** — 只推送项目文件
+2. **推送前先 `git status` 确认** — 不要 `git add -A`
+3. **SSH push 大仓库容易超时** — 设置 `ConnectTimeout=60 + ServerAliveInterval=30`
+4. **永远不要 `git push --force`** — 除非100%确定远程分支可以被覆盖。正确做法：先 pull --rebase，解决冲突后再 push
+5. **用 tarball 推送时必须包含全部文件** — 不能只 init + add 4 个文件就 force push，会覆盖掉远程所有内容
+
+_Last updated: 2026-04-29 00:08 GMT+8_
