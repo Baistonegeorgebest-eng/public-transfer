@@ -1,0 +1,86 @@
+#!/usr/bin/env python3
+"""Final punctuation fingerprint - handles encoding errors."""
+import os, re
+
+D = "/root/.openclaw/workspace/novel-corpus"
+
+def read_file(filepath):
+    for enc in ['gbk', 'gb18030', 'utf-8', 'gb2312']:
+        try:
+            with open(filepath, 'r', encoding=enc, errors='replace') as f:
+                text = f.read()
+            if '的' in text[:1000] or '章' in text[:2000]:
+                return text
+        except:
+            continue
+    return None
+
+def analyze(text):
+    total = len(re.sub(r'\s', '', text))
+    if total < 10000:
+        return None
+    comma = text.count('，') + text.count(',')
+    period = text.count('。') + text.count('.')
+    excl = text.count('！') + text.count('!')
+    ellipsis = text.count('……')
+    quest = text.count('？') + text.count('?')
+    k = total / 1000
+    chapters = len(re.findall(r'第[一二三四五六七八九十百千\d]+[章回节]', text))
+    if chapters < 2: chapters = max(1, total // 3000)
+    sentences = [s.strip() for s in re.split(r'[。！？…]+', text) if len(re.sub(r'\s','',s))>5]
+    lengths = [len(re.sub(r'\s','',s)) for s in sentences]
+    avg_sent = sum(lengths)/len(lengths) if lengths else 0
+    long_pct = sum(1 for l in lengths if l>30)/len(lengths)*100 if lengths else 0
+    seem = (text.count('似乎')+text.count('好像')+text.count('仿佛')) / (total/10000)
+    maybe = (text.count('可能')+text.count('也许')+text.count('或许')) / (total/10000)
+    return dict(chars=total, ch=chapters, ck=comma/k, pk=period/k, ek=excl/k, lk=ellipsis/k, qk=quest/k,
+                ech=excl/max(chapters,1), lch=ellipsis/max(chapters,1), avg=avg_sent, long=long_pct, seem=seem, maybe=maybe)
+
+author_map = {
+    '光明纪元':'血红','开天录':'血红','逆龙道':'血红','偷天':'血红','邪龙道':'血红',
+    '三界血歌':'血红','升龙道':'血红',
+    '斗破苍穹':'天蚕土豆','佛本是道':'梦入神机','美漫法神':'梦入神机',
+    '苟在妖武乱世修仙':'文抄公','诡秘如风常伴吾身':'文抄公','轮回大劫主':'文抄公',
+    '神秀之主':'文抄公','神秘之劫':'文抄公','超凡黎明':'文抄公',
+    '汉阙':'榴弹怕水','秦吏':'榴弹怕水','绍宋':'榴弹怕水',
+    '极道天魔':'滚开','十方武圣':'滚开',
+    '万族之劫':'老鹰吃小鸡','圣王':'梦入神机','唐砖':'孑与2',
+    '吞噬星空':'我吃西红柿','莽荒纪':'我吃西红柿','盘龙':'我吃西红柿','九鼎记':'我吃西红柿',
+    '史上第一祖师爷':'八月飞鹰','史上最强师兄':'八月飞鹰',
+    '我真是族长':'孤独漂流','人道崛起':'孤独漂流','传奇族长':'孤独漂流',
+    '人皇纪':'皇甫奇','帝御山河':'皇甫奇','飞升之后':'皇甫奇','大周皇族':'皇甫奇',
+    '明克街13号':'纯洁滴小龙',
+    '神秘之旅':'滚开','万千之心':'滚开','我的属性修行人生':'滚开',
+    '玩家请自重':'熊狼狗',
+    '我师兄实在太稳健了':'言归正传',
+    '诡秘如风常伴吾身':'文抄公',
+    '点道为止':'梦入神机','龙蛇演义':'梦入神机','拳镇山河':'梦入神机',
+    '黄龙真人异界游':'梦入神机',
+}
+
+results = {}
+for f in sorted(os.listdir(D)):
+    if not f.endswith('.txt') or 'fingerprint' in f or 'results' in f:
+        continue
+    name = f.replace('.txt', '')
+    text = read_file(os.path.join(D, f))
+    if text:
+        r = analyze(text)
+        if r:
+            author = author_map.get(name, '？')
+            results[name] = (author, r)
+
+# Sort by chars desc
+sorted_results = sorted(results.items(), key=lambda x: x[1][1]['chars'], reverse=True)
+
+print(f"{'作者':<8} {'小说':<14} {'字数':>4} {'逗号':>6} {'句号':>6} {'感叹':>6} {'省略':>6} {'问号':>6} {'均句':>4} {'长句%':>5} {'!/章':>5} {'…/章':>5} {'似乎':>4} {'可能':>4}")
+print("-" * 110)
+for name, (author, r) in sorted_results:
+    print(f"{author:<8} {name:<14} {r['chars']/10000:>3.0f}万 {r['ck']:>5.1f} {r['pk']:>5.1f} {r['ek']:>5.2f} {r['lk']:>5.2f} {r['qk']:>5.1f} {r['avg']:>3.0f} {r['long']:>4.1f}% {r['ech']:>4.1f} {r['lch']:>4.1f} {r['seem']:>3.1f} {r['maybe']:>3.1f}")
+
+# Sweet spot analysis
+print("\n\n=== 严肃度甜点区间 ===")
+print("感叹1-3/千字 + 省略1-5/千字 + 均句35-55字 的作品：")
+for name, (author, r) in sorted_results:
+    if 1 <= r['ek'] <= 3 and 1 <= r['lk'] <= 5 and 35 <= r['avg'] <= 55:
+        print(f"  ✓ {author}《{name}》: 感叹{r['ek']:.2f} 省略{r['lk']:.2f} 均句{r['avg']:.0f}字")
