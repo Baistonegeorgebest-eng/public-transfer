@@ -1,0 +1,202 @@
+[OK] 无限之凡人的智慧 (春秋散人) 129万 感叹0.79 福利6.2 VIP3.79
+[OK] 武极天下 (蚕茧里的牛) 757万 感叹7.23 福利10.6 VIP4.23
+[OK] 仙葫 (流浪的蛤蟆) 260万 感叹1.08 福利4.8 VIP0.25
+[OK] 现代平民宗师传奇 (神医的名) 215万 感叹8.98 福利11.2 VIP1.86
+[OK] 御剑乘风 (未确认) 158万 感叹10.87 福利3.7 VIP2.02
+[OK] 阵法宗师异界纵横 (神医的名) 157万 感叹0.10 福利6.6 VIP4.33
+[OK] 重生之足球神话 (冰魂46) 158万 感叹4.41 福利6.8 VIP1.70
+[OK] 足球修改器 (乱世狂刀01) 360万 感叹10.64 福利5.1 VIP2.35
+{
+  "无限之凡人的智慧": {
+    "author": "春秋散人",
+    "fingerprint": {
+      "chars": 1286400,
+      "chapters": 1489,
+      "comma_per_k": 59.1,
+      "period_per_k": 24.85,
+      "excl_per_k": 0.79,
+      "ellipsis_per_k": 0.24,
+      "quest_per_k": 2.3,
+      "excl_per_ch": 0.68,
+      "ell_per_ch": 0.21,
+      "avg_sent": 41.1,
+      "long_pct": 50.4,
+      "seem_per_10k": 0.44,
+      "maybe_per_10k": 0.64
+    },
+    "sensory": {
+      "total_welfare": 791,
+      "welfare_density": 6.15,
+      "vip_keywords": 487,
+      "vip_density": 3.79
+    }
+  },
+  "武极天下": {
+    "author": "蚕茧里的牛",
+    "fingerprint": {
+      "chars": 7565512,
+      "chapters": 2226,
+      "comma_per_k": 67.52,
+      "period_per_k": 18.15,
+      "excl_per_k": 7.23,
+      "ellipsis_per_k": 2.04,
+      "quest_per_k": 2.69,
+      "excl_per_ch": 24.56,
+      "ell_per_ch": 6.92,
+      "avg_sent": 37.3,
+      "long_pct": 52.4,
+      "seem_per_10k": 0.93,
+      "maybe_per_10k": 1.07
+    },
+    "sensory": {
+      "total_welfare": 7980,
+      "welfare_density": 10.55,
+      "vip_keywords": 3203,
+      "vip_density": 4.23
+    }
+  },
+  "仙葫": {
+    "author": "流浪的蛤蟆",
+    "fingerprint": {
+      "chars": 2604790,
+      "chapters": 70,
+      "comma_per_k": 66.83,
+      "period_per_k": 19.43,
+      "excl_per_k": 1.08,
+      "ellipsis_per_k": 0.26,
+      "quest_per_k": 2.44,
+      "excl_per_ch": 40.21,
+      "ell_per_ch": 9.71,
+      "avg_sent": 43.2,
+      "long_pct": 65.5,
+      "seem_per_10k": 0.35,
+      "maybe_per_10k": 0.31
+    },
+    "sensory": {
+      "total_welfare": 1253,
+      "welfare_density": 4.81,
+      "vip_keywords": 64,
+      "vip_density": 0.25
+    }
+  },
+  "现代平民宗师传奇": {
+    "author": "神医的名",
+    "fingerprint": {
+      "chars": 2153780,
+      "chapters": 2663,
+      "comma_per_k": 47.85,
+      "period_per_k": 10.2,
+      "excl_per_k": 8.98,
+      "ellipsis_per_k": 0.03,
+      "quest_per_k": 5.29,
+      "excl_per_ch": 7.26,
+      "ell_per_ch": 0.03,
+      "avg_sent": 55.0,
+      "long_pct": 53.4,
+      "seem_per_10k": 0.07,
+      "maybe_per_10k": 0.47
+    },
+    "sensory": {
+      "total_welfare": 2419,
+      "welfare_density": 11.23,
+      "vip_keywords": 401,
+      "vip_density": 1.86
+    }
+  },
+  "御剑乘风": {
+    "author": "未确认",
+    "fingerprint": {
+      "chars": 1576420,
+      "chapters": 379,
+      "comma_per_k": 74.3,
+      "period_per_k": 18.08,
+      "excl_per_k": 10.87,
+      "ellipsis_per_k": 1.95,
+      "quest_per_k": 2.25,
+      "excl_per_ch": 45.21,
+      "ell_per_ch": 8.09,
+      "avg_sent": 38.2,
+      "long_pct": 52.4,
+      "seem_per_10k": 0.85,
+      "maybe_per_10k": 0.5
+    },
+    "sensory": {
+      "total_welfare": 588,
+      "welfare_density": 3.73,
+      "vip_keywords": 318,
+      "vip_density": 2.02
+    }
+  },
+  "阵法宗师异界纵横": {
+    "author": "神医的名",
+    "fingerprint": {
+      "chars": 1572089,
+      "chapters": 1140,
+      "comma_per_k": 55.32,
+      "period_per_k": 21.51,
+      "excl_per_k": 0.1,
+      "ellipsis_per_k": 0.17,
+      "quest_per_k": 1.62,
+      "excl_per_ch": 0.14,
+      "ell_per_ch": 0.23,
+      "avg_sent": 46.1,
+      "long_pct": 56.2,
+      "seem_per_10k": 0.27,
+      "maybe_per_10k": 0.56
+    },
+    "sensory": {
+      "total_welfare": 1038,
+      "welfare_density": 6.6,
+      "vip_keywords": 681,
+      "vip_density": 4.33
+    }
+  },
+  "重生之足球神话": {
+    "author": "冰魂46",
+    "fingerprint": {
+      "chars": 1579501,
+      "chapters": 388,
+      "comma_per_k": 52.54,
+      "period_per_k": 11.72,
+      "excl_per_k": 4.41,
+      "ellipsis_per_k": 1.94,
+      "quest_per_k": 2.64,
+      "excl_per_ch": 17.95,
+      "ell_per_ch": 7.91,
+      "avg_sent": 64.9,
+      "long_pct": 78.1,
+      "seem_per_10k": 0.3,
+      "maybe_per_10k": 0.56
+    },
+    "sensory": {
+      "total_welfare": 1080,
+      "welfare_density": 6.84,
+      "vip_keywords": 268,
+      "vip_density": 1.7
+    }
+  },
+  "足球修改器": {
+    "author": "乱世狂刀01",
+    "fingerprint": {
+      "chars": 3603811,
+      "chapters": 1009,
+      "comma_per_k": 45.11,
+      "period_per_k": 7.82,
+      "excl_per_k": 10.64,
+      "ellipsis_per_k": 3.8,
+      "quest_per_k": 2.29,
+      "excl_per_ch": 38.02,
+      "ell_per_ch": 13.57,
+      "avg_sent": 47.4,
+      "long_pct": 54.7,
+      "seem_per_10k": 0.4,
+      "maybe_per_10k": 0.51
+    },
+    "sensory": {
+      "total_welfare": 1850,
+      "welfare_density": 5.13,
+      "vip_keywords": 848,
+      "vip_density": 2.35
+    }
+  }
+}

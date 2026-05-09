@@ -1,0 +1,381 @@
+[OK] 无限斩杀 (娇蛮斩杀) 132万 感叹3.87 福利7.3 VIP1.74
+[OK] 国破山河在 (华表) 180万 感叹7.78 福利4.7 VIP1.89
+[OK] 洪荒不朽 (小七泡泡) 278万 感叹6.63 福利1.8 VIP1.59
+[OK] 洪荒绝世散修 (吾心飞扬) 130万 感叹0.87 福利2.9 VIP4.03
+[OK] 洪荒时辰 (静默节奏) 185万 感叹2.61 福利6.2 VIP1.47
+[OK] 洪荒祖巫烛九阴传 (小小妖道) 238万 感叹3.16 福利4.8 VIP0.99
+[FAIL] 皇气
+[OK] 剑极天下 (尸口巾) 470万 感叹3.18 福利6.1 VIP7.51
+[OK] 抗日之血祭山河 (未确认) 223万 感叹2.52 福利1.8 VIP2.32
+[OK] 雷罚 (没有灵魂的人) 171万 感叹1.18 福利5.5 VIP4.80
+[OK] 秦皇纪 (殷扬) 218万 感叹4.74 福利2.2 VIP1.63
+[OK] 人皇系统 (未确认) 114万 感叹4.31 福利3.4 VIP1.84
+[OK] 随身带着地狱 (未确认) 135万 感叹4.79 福利9.9 VIP2.66
+[OK] 随身装着一口泉 (未确认) 123万 感叹0.36 福利4.0 VIP0.48
+[OK] 唐朝大宗师 (暖阳倾城) 38万 感叹12.48 福利4.1 VIP0.56
+[OK] 无极魔道 (逆苍天) 286万 感叹4.04 福利7.9 VIP3.14
+[OK] 无良皇帝 (傲无常) 113万 感叹0.12 福利12.2 VIP2.79
+[OK] 无限的大冒险 (未确认) 137万 感叹0.47 福利7.9 VIP4.43
+[OK] 不死冥王 (云天空) 183万 感叹11.82 福利16.0 VIP3.09
+{
+  "无限斩杀": {
+    "author": "娇蛮斩杀",
+    "fingerprint": {
+      "chars": 1321040,
+      "chapters": 1606,
+      "comma_per_k": 45.13,
+      "period_per_k": 26.45,
+      "excl_per_k": 3.87,
+      "ellipsis_per_k": 3.57,
+      "quest_per_k": 3.69,
+      "avg_sent": 31.1,
+      "long_pct": 39.0
+    },
+    "sensory": {
+      "total_welfare": 971,
+      "welfare_density": 7.35,
+      "vip_keywords": 230,
+      "vip_density": 1.74
+    }
+  },
+  "国破山河在": {
+    "author": "华表",
+    "fingerprint": {
+      "chars": 1802315,
+      "chapters": 558,
+      "comma_per_k": 56.44,
+      "period_per_k": 15.6,
+      "excl_per_k": 7.78,
+      "ellipsis_per_k": 0.16,
+      "quest_per_k": 1.91,
+      "avg_sent": 47.8,
+      "long_pct": 58.0
+    },
+    "sensory": {
+      "total_welfare": 844,
+      "welfare_density": 4.68,
+      "vip_keywords": 341,
+      "vip_density": 1.89
+    }
+  },
+  "洪荒不朽": {
+    "author": "小七泡泡",
+    "fingerprint": {
+      "chars": 2780784,
+      "chapters": 934,
+      "comma_per_k": 87.36,
+      "period_per_k": 12.66,
+      "excl_per_k": 6.63,
+      "ellipsis_per_k": 0.02,
+      "quest_per_k": 2.46,
+      "avg_sent": 49.7,
+      "long_pct": 59.5
+    },
+    "sensory": {
+      "total_welfare": 490,
+      "welfare_density": 1.76,
+      "vip_keywords": 441,
+      "vip_density": 1.59
+    }
+  },
+  "洪荒绝世散修": {
+    "author": "吾心飞扬",
+    "fingerprint": {
+      "chars": 1302633,
+      "chapters": 658,
+      "comma_per_k": 86.4,
+      "period_per_k": 16.13,
+      "excl_per_k": 0.87,
+      "ellipsis_per_k": 0.3,
+      "quest_per_k": 0.77,
+      "avg_sent": 61.5,
+      "long_pct": 72.4
+    },
+    "sensory": {
+      "total_welfare": 374,
+      "welfare_density": 2.87,
+      "vip_keywords": 525,
+      "vip_density": 4.03
+    }
+  },
+  "洪荒时辰": {
+    "author": "静默节奏",
+    "fingerprint": {
+      "chars": 1849085,
+      "chapters": 501,
+      "comma_per_k": 68.33,
+      "period_per_k": 10.9,
+      "excl_per_k": 2.61,
+      "ellipsis_per_k": 0.64,
+      "quest_per_k": 1.84,
+      "avg_sent": 67.7,
+      "long_pct": 56.6
+    },
+    "sensory": {
+      "total_welfare": 1144,
+      "welfare_density": 6.19,
+      "vip_keywords": 271,
+      "vip_density": 1.47
+    }
+  },
+  "洪荒祖巫烛九阴传": {
+    "author": "小小妖道",
+    "fingerprint": {
+      "chars": 2383243,
+      "chapters": 1291,
+      "comma_per_k": 55.67,
+      "period_per_k": 8.98,
+      "excl_per_k": 3.16,
+      "ellipsis_per_k": 0.04,
+      "quest_per_k": 0.62,
+      "avg_sent": 80.9,
+      "long_pct": 85.4
+    },
+    "sensory": {
+      "total_welfare": 1137,
+      "welfare_density": 4.77,
+      "vip_keywords": 237,
+      "vip_density": 0.99
+    }
+  },
+  "剑极天下": {
+    "author": "尸口巾",
+    "fingerprint": {
+      "chars": 4700026,
+      "chapters": 1445,
+      "comma_per_k": 72.59,
+      "period_per_k": 27.66,
+      "excl_per_k": 3.18,
+      "ellipsis_per_k": 2.17,
+      "quest_per_k": 3.95,
+      "avg_sent": 35.1,
+      "long_pct": 51.2
+    },
+    "sensory": {
+      "total_welfare": 2872,
+      "welfare_density": 6.11,
+      "vip_keywords": 3532,
+      "vip_density": 7.51
+    }
+  },
+  "抗日之血祭山河": {
+    "author": "未确认",
+    "fingerprint": {
+      "chars": 2227499,
+      "chapters": 905,
+      "comma_per_k": 48.1,
+      "period_per_k": 7.37,
+      "excl_per_k": 2.52,
+      "ellipsis_per_k": 0.01,
+      "quest_per_k": 4.01,
+      "avg_sent": 83.9,
+      "long_pct": 74.9
+    },
+    "sensory": {
+      "total_welfare": 397,
+      "welfare_density": 1.78,
+      "vip_keywords": 517,
+      "vip_density": 2.32
+    }
+  },
+  "雷罚": {
+    "author": "没有灵魂的人",
+    "fingerprint": {
+      "chars": 1713607,
+      "chapters": 540,
+      "comma_per_k": 64.66,
+      "period_per_k": 19.95,
+      "excl_per_k": 1.18,
+      "ellipsis_per_k": 0.0,
+      "quest_per_k": 2.14,
+      "avg_sent": 48.4,
+      "long_pct": 81.4
+    },
+    "sensory": {
+      "total_welfare": 947,
+      "welfare_density": 5.53,
+      "vip_keywords": 822,
+      "vip_density": 4.8
+    }
+  },
+  "秦皇纪": {
+    "author": "殷扬",
+    "fingerprint": {
+      "chars": 2179478,
+      "chapters": 814,
+      "comma_per_k": 73.12,
+      "period_per_k": 30.72,
+      "excl_per_k": 4.74,
+      "ellipsis_per_k": 0.79,
+      "quest_per_k": 5.65,
+      "avg_sent": 26.1,
+      "long_pct": 33.6
+    },
+    "sensory": {
+      "total_welfare": 479,
+      "welfare_density": 2.2,
+      "vip_keywords": 356,
+      "vip_density": 1.63
+    }
+  },
+  "人皇系统": {
+    "author": "未确认",
+    "fingerprint": {
+      "chars": 1136562,
+      "chapters": 392,
+      "comma_per_k": 58.99,
+      "period_per_k": 32.25,
+      "excl_per_k": 4.31,
+      "ellipsis_per_k": 0.02,
+      "quest_per_k": 1.67,
+      "avg_sent": 28.2,
+      "long_pct": 34.7
+    },
+    "sensory": {
+      "total_welfare": 386,
+      "welfare_density": 3.4,
+      "vip_keywords": 209,
+      "vip_density": 1.84
+    }
+  },
+  "随身带着地狱": {
+    "author": "未确认",
+    "fingerprint": {
+      "chars": 1350870,
+      "chapters": 291,
+      "comma_per_k": 60.79,
+      "period_per_k": 20.32,
+      "excl_per_k": 4.79,
+      "ellipsis_per_k": 1.97,
+      "quest_per_k": 4.77,
+      "avg_sent": 36.4,
+      "long_pct": 42.7
+    },
+    "sensory": {
+      "total_welfare": 1342,
+      "welfare_density": 9.93,
+      "vip_keywords": 360,
+      "vip_density": 2.66
+    }
+  },
+  "随身装着一口泉": {
+    "author": "未确认",
+    "fingerprint": {
+      "chars": 1232968,
+      "chapters": 427,
+      "comma_per_k": 50.27,
+      "period_per_k": 33.09,
+      "excl_per_k": 0.36,
+      "ellipsis_per_k": 1.44,
+      "quest_per_k": 2.33,
+      "avg_sent": 27.1,
+      "long_pct": 33.5
+    },
+    "sensory": {
+      "total_welfare": 494,
+      "welfare_density": 4.01,
+      "vip_keywords": 59,
+      "vip_density": 0.48
+    }
+  },
+  "唐朝大宗师": {
+    "author": "暖阳倾城",
+    "fingerprint": {
+      "chars": 377354,
+      "chapters": 246,
+      "comma_per_k": 72.22,
+      "period_per_k": 13.78,
+      "excl_per_k": 12.48,
+      "ellipsis_per_k": 0.86,
+      "quest_per_k": 5.49,
+      "avg_sent": 32.5,
+      "long_pct": 44.5
+    },
+    "sensory": {
+      "total_welfare": 156,
+      "welfare_density": 4.13,
+      "vip_keywords": 21,
+      "vip_density": 0.56
+    }
+  },
+  "无极魔道": {
+    "author": "逆苍天",
+    "fingerprint": {
+      "chars": 2859633,
+      "chapters": 839,
+      "comma_per_k": 63.52,
+      "period_per_k": 17.56,
+      "excl_per_k": 4.04,
+      "ellipsis_per_k": 0.21,
+      "quest_per_k": 1.4,
+      "avg_sent": 51.4,
+      "long_pct": 64.3
+    },
+    "sensory": {
+      "total_welfare": 2261,
+      "welfare_density": 7.91,
+      "vip_keywords": 899,
+      "vip_density": 3.14
+    }
+  },
+  "无良皇帝": {
+    "author": "傲无常",
+    "fingerprint": {
+      "chars": 1129097,
+      "chapters": 445,
+      "comma_per_k": 60.68,
+      "period_per_k": 38.83,
+      "excl_per_k": 0.12,
+      "ellipsis_per_k": 0.61,
+      "quest_per_k": 4.96,
+      "avg_sent": 22.9,
+      "long_pct": 23.1
+    },
+    "sensory": {
+      "total_welfare": 1380,
+      "welfare_density": 12.22,
+      "vip_keywords": 315,
+      "vip_density": 2.79
+    }
+  },
+  "无限的大冒险": {
+    "author": "未确认",
+    "fingerprint": {
+      "chars": 1366770,
+      "chapters": 2176,
+      "comma_per_k": 39.24,
+      "period_per_k": 17.99,
+      "excl_per_k": 0.47,
+      "ellipsis_per_k": 0.01,
+      "quest_per_k": 1.88,
+      "avg_sent": 58.4,
+      "long_pct": 71.2
+    },
+    "sensory": {
+      "total_welfare": 1075,
+      "welfare_density": 7.87,
+      "vip_keywords": 606,
+      "vip_density": 4.43
+    }
+  },
+  "不死冥王": {
+    "author": "云天空",
+    "fingerprint": {
+      "chars": 1825640,
+      "chapters": 393,
+      "comma_per_k": 85.08,
+      "period_per_k": 2.0,
+      "excl_per_k": 11.82,
+      "ellipsis_per_k": 7.7,
+      "quest_per_k": 2.7,
+      "avg_sent": 50.2,
+      "long_pct": 66.9
+    },
+    "sensory": {
+      "total_welfare": 2929,
+      "welfare_density": 16.04,
+      "vip_keywords": 565,
+      "vip_density": 3.09
+    }
+  }
+}

@@ -1,0 +1,578 @@
+[OK]   网游之模拟城市 (笨太子) - 312万字, welfare=3.86/万字, vip=1.84/万字
+[OK]   命运的抉择 (黑色柳丁) - 297万字, welfare=3.31/万字, vip=2.32/万字
+[OK]   网游之近战法师 (蝴蝶蓝) - 355万字, welfare=2.9/万字, vip=1.08/万字
+[OK]   网游之格斗-战无不胜 (开玩笑) - 71万字, welfare=5.04/万字, vip=7.85/万字
+[OK]   混在三国当军阀 (寂寞剑客) - 195万字, welfare=7.62/万字, vip=1.03/万字
+[OK]   创神 (无断) - 197万字, welfare=8.01/万字, vip=2.21/万字
+[OK]   气修无极 (癫中之巅) - 357万字, welfare=9.09/万字, vip=4.32/万字
+[OK]   图腾 (油炸包子) - 86万字, welfare=8.38/万字, vip=2.02/万字
+[OK]   傲世武皇 (曾经拥有的方向感) - 300万字, welfare=4.1/万字, vip=4.84/万字
+[OK]   斗神 (么么) - 348万字, welfare=8.52/万字, vip=2.13/万字
+[OK]   不败升级 (牛五花) - 463万字, welfare=14.74/万字, vip=4.35/万字
+[OK]   穿越洪荒录 (蛰龙01) - 143万字, welfare=3.12/万字, vip=0.65/万字
+[OK]   穿越火线之兵行天下 (纯阳金丹) - 313万字, welfare=6.12/万字, vip=1.85/万字
+[OK]   丹药大亨 (飘荡的云) - 287万字, welfare=41.99/万字, vip=5.84/万字
+[OK]   刀剑神皇 (乱世狂刀01) - 381万字, welfare=10.49/万字, vip=4.51/万字
+[OK]   帝御山河 (皇甫奇) - 464万字, welfare=4.74/万字, vip=2.34/万字
+[OK]   独步山河 (胡鳕) - 153万字, welfare=5.7/万字, vip=3.29/万字
+[OK]   符皇 (萧瑾瑜) - 699万字, welfare=5.39/万字, vip=4.39/万字
+{
+  "网游之模拟城市": {
+    "author": "笨太子",
+    "fingerprint": {
+      "chars": 3115000,
+      "chapters": 840,
+      "comma_per_k": 47.65,
+      "period_per_k": 10.0,
+      "excl_per_k": 7.85,
+      "ellipsis_per_k": 3.63,
+      "quest_per_k": 3.92,
+      "excl_per_ch": 29.12,
+      "ell_per_ch": 13.45,
+      "avg_sent": 46.7,
+      "long_pct": 56.2,
+      "seem_per_10k": 0.65,
+      "maybe_per_10k": 0.87
+    },
+    "sensory": {
+      "L1_total": 440,
+      "L2_clothing": 47,
+      "L3_total": 98,
+      "L4_total": 298,
+      "L5_atmosphere": 138,
+      "L6_dialogue": 142,
+      "L7_aftermath": 39,
+      "total_welfare": 1202,
+      "welfare_density": 3.86,
+      "vip_keywords": 572,
+      "vip_density": 1.84
+    }
+  },
+  "命运的抉择": {
+    "author": "黑色柳丁",
+    "fingerprint": {
+      "chars": 2969816,
+      "chapters": 778,
+      "comma_per_k": 19.73,
+      "period_per_k": 38.61,
+      "excl_per_k": 1.33,
+      "ellipsis_per_k": 0.1,
+      "quest_per_k": 2.56,
+      "excl_per_ch": 5.07,
+      "ell_per_ch": 0.37,
+      "avg_sent": 23.2,
+      "long_pct": 22.3,
+      "seem_per_10k": 0.31,
+      "maybe_per_10k": 0.53
+    },
+    "sensory": {
+      "L1_total": 379,
+      "L2_clothing": 53,
+      "L3_total": 139,
+      "L4_total": 235,
+      "L5_atmosphere": 90,
+      "L6_dialogue": 45,
+      "L7_aftermath": 42,
+      "total_welfare": 983,
+      "welfare_density": 3.31,
+      "vip_keywords": 689,
+      "vip_density": 2.32
+    }
+  },
+  "网游之近战法师": {
+    "author": "蝴蝶蓝",
+    "fingerprint": {
+      "chars": 3550800,
+      "chapters": 723,
+      "comma_per_k": 44.44,
+      "period_per_k": 33.49,
+      "excl_per_k": 5.78,
+      "ellipsis_per_k": 1.21,
+      "quest_per_k": 6.18,
+      "excl_per_ch": 28.36,
+      "ell_per_ch": 5.93,
+      "avg_sent": 24.8,
+      "long_pct": 28.9,
+      "seem_per_10k": 0.51,
+      "maybe_per_10k": 0.87
+    },
+    "sensory": {
+      "L1_total": 321,
+      "L2_clothing": 21,
+      "L3_total": 88,
+      "L4_total": 350,
+      "L5_atmosphere": 30,
+      "L6_dialogue": 160,
+      "L7_aftermath": 61,
+      "total_welfare": 1031,
+      "welfare_density": 2.9,
+      "vip_keywords": 385,
+      "vip_density": 1.08
+    }
+  },
+  "网游之格斗-战无不胜": {
+    "author": "开玩笑",
+    "fingerprint": {
+      "chars": 714725,
+      "chapters": 211,
+      "comma_per_k": 34.71,
+      "period_per_k": 31.81,
+      "excl_per_k": 2.32,
+      "ellipsis_per_k": 0.88,
+      "quest_per_k": 3.55,
+      "excl_per_ch": 7.86,
+      "ell_per_ch": 2.99,
+      "avg_sent": 27.3,
+      "long_pct": 35.6,
+      "seem_per_10k": 0.47,
+      "maybe_per_10k": 0.78
+    },
+    "sensory": {
+      "L1_total": 204,
+      "L2_clothing": 3,
+      "L3_total": 35,
+      "L4_total": 46,
+      "L5_atmosphere": 52,
+      "L6_dialogue": 17,
+      "L7_aftermath": 3,
+      "total_welfare": 360,
+      "welfare_density": 5.04,
+      "vip_keywords": 561,
+      "vip_density": 7.85
+    }
+  },
+  "混在三国当军阀": {
+    "author": "寂寞剑客",
+    "fingerprint": {
+      "chars": 1949580,
+      "chapters": 359,
+      "comma_per_k": 52.47,
+      "period_per_k": 22.78,
+      "excl_per_k": 6.24,
+      "ellipsis_per_k": 1.27,
+      "quest_per_k": 5.31,
+      "excl_per_ch": 33.9,
+      "ell_per_ch": 6.91,
+      "avg_sent": 34.6,
+      "long_pct": 38.9,
+      "seem_per_10k": 0.19,
+      "maybe_per_10k": 0.5
+    },
+    "sensory": {
+      "L1_total": 687,
+      "L2_clothing": 41,
+      "L3_total": 123,
+      "L4_total": 576,
+      "L5_atmosphere": 37,
+      "L6_dialogue": 20,
+      "L7_aftermath": 2,
+      "total_welfare": 1486,
+      "welfare_density": 7.62,
+      "vip_keywords": 201,
+      "vip_density": 1.03
+    }
+  },
+  "创神": {
+    "author": "无断",
+    "fingerprint": {
+      "chars": 1967893,
+      "chapters": 564,
+      "comma_per_k": 68.52,
+      "period_per_k": 20.23,
+      "excl_per_k": 0.25,
+      "ellipsis_per_k": 1.73,
+      "quest_per_k": 2.9,
+      "excl_per_ch": 0.89,
+      "ell_per_ch": 6.02,
+      "avg_sent": 42.9,
+      "long_pct": 56.6,
+      "seem_per_10k": 0.72,
+      "maybe_per_10k": 0.41
+    },
+    "sensory": {
+      "L1_total": 845,
+      "L2_clothing": 170,
+      "L3_total": 126,
+      "L4_total": 277,
+      "L5_atmosphere": 54,
+      "L6_dialogue": 96,
+      "L7_aftermath": 8,
+      "total_welfare": 1576,
+      "welfare_density": 8.01,
+      "vip_keywords": 434,
+      "vip_density": 2.21
+    }
+  },
+  "气修无极": {
+    "author": "癫中之巅",
+    "fingerprint": {
+      "chars": 3569807,
+      "chapters": 882,
+      "comma_per_k": 42.83,
+      "period_per_k": 22.87,
+      "excl_per_k": 10.55,
+      "ellipsis_per_k": 2.03,
+      "quest_per_k": 3.36,
+      "excl_per_ch": 42.69,
+      "ell_per_ch": 8.21,
+      "avg_sent": 28.9,
+      "long_pct": 36.5,
+      "seem_per_10k": 0.76,
+      "maybe_per_10k": 0.55
+    },
+    "sensory": {
+      "L1_total": 2188,
+      "L2_clothing": 65,
+      "L3_total": 273,
+      "L4_total": 446,
+      "L5_atmosphere": 120,
+      "L6_dialogue": 135,
+      "L7_aftermath": 19,
+      "total_welfare": 3246,
+      "welfare_density": 9.09,
+      "vip_keywords": 1543,
+      "vip_density": 4.32
+    }
+  },
+  "图腾": {
+    "author": "油炸包子",
+    "fingerprint": {
+      "chars": 857233,
+      "chapters": 294,
+      "comma_per_k": 67.67,
+      "period_per_k": 14.21,
+      "excl_per_k": 15.33,
+      "ellipsis_per_k": 2.51,
+      "quest_per_k": 6.34,
+      "excl_per_ch": 44.71,
+      "ell_per_ch": 7.32,
+      "avg_sent": 30.7,
+      "long_pct": 40.3,
+      "seem_per_10k": 0.65,
+      "maybe_per_10k": 0.47
+    },
+    "sensory": {
+      "L1_total": 404,
+      "L2_clothing": 13,
+      "L3_total": 66,
+      "L4_total": 125,
+      "L5_atmosphere": 73,
+      "L6_dialogue": 34,
+      "L7_aftermath": 3,
+      "total_welfare": 718,
+      "welfare_density": 8.38,
+      "vip_keywords": 173,
+      "vip_density": 2.02
+    }
+  },
+  "傲世武皇": {
+    "author": "曾经拥有的方向感",
+    "fingerprint": {
+      "chars": 3001723,
+      "chapters": 1054,
+      "comma_per_k": 55.3,
+      "period_per_k": 18.04,
+      "excl_per_k": 1.94,
+      "ellipsis_per_k": 2.35,
+      "quest_per_k": 3.99,
+      "excl_per_ch": 5.53,
+      "ell_per_ch": 6.68,
+      "avg_sent": 43.3,
+      "long_pct": 58.5,
+      "seem_per_10k": 0.39,
+      "maybe_per_10k": 0.95
+    },
+    "sensory": {
+      "L1_total": 434,
+      "L2_clothing": 147,
+      "L3_total": 61,
+      "L4_total": 344,
+      "L5_atmosphere": 35,
+      "L6_dialogue": 36,
+      "L7_aftermath": 174,
+      "total_welfare": 1231,
+      "welfare_density": 4.1,
+      "vip_keywords": 1453,
+      "vip_density": 4.84
+    }
+  },
+  "斗神": {
+    "author": "么么",
+    "fingerprint": {
+      "chars": 3480687,
+      "chapters": 1001,
+      "comma_per_k": 62.45,
+      "period_per_k": 14.44,
+      "excl_per_k": 7.41,
+      "ellipsis_per_k": 3.77,
+      "quest_per_k": 4.04,
+      "excl_per_ch": 25.78,
+      "ell_per_ch": 13.09,
+      "avg_sent": 35.7,
+      "long_pct": 51.8,
+      "seem_per_10k": 1.22,
+      "maybe_per_10k": 0.5
+    },
+    "sensory": {
+      "L1_total": 1754,
+      "L2_clothing": 89,
+      "L3_total": 163,
+      "L4_total": 593,
+      "L5_atmosphere": 160,
+      "L6_dialogue": 196,
+      "L7_aftermath": 10,
+      "total_welfare": 2965,
+      "welfare_density": 8.52,
+      "vip_keywords": 741,
+      "vip_density": 2.13
+    }
+  },
+  "不败升级": {
+    "author": "牛五花",
+    "fingerprint": {
+      "chars": 4632085,
+      "chapters": 3024,
+      "comma_per_k": 56.19,
+      "period_per_k": 27.35,
+      "excl_per_k": 11.0,
+      "ellipsis_per_k": 5.29,
+      "quest_per_k": 5.67,
+      "excl_per_ch": 16.86,
+      "ell_per_ch": 8.11,
+      "avg_sent": 25.6,
+      "long_pct": 29.5,
+      "seem_per_10k": 0.34,
+      "maybe_per_10k": 0.64
+    },
+    "sensory": {
+      "L1_total": 4286,
+      "L2_clothing": 112,
+      "L3_total": 310,
+      "L4_total": 1631,
+      "L5_atmosphere": 136,
+      "L6_dialogue": 345,
+      "L7_aftermath": 10,
+      "total_welfare": 6830,
+      "welfare_density": 14.74,
+      "vip_keywords": 2016,
+      "vip_density": 4.35
+    }
+  },
+  "穿越洪荒录": {
+    "author": "蛰龙01",
+    "fingerprint": {
+      "chars": 1434444,
+      "chapters": 463,
+      "comma_per_k": 66.56,
+      "period_per_k": 12.21,
+      "excl_per_k": 9.14,
+      "ellipsis_per_k": 0.01,
+      "quest_per_k": 8.6,
+      "excl_per_ch": 28.33,
+      "ell_per_ch": 0.04,
+      "avg_sent": 46.2,
+      "long_pct": 61.4,
+      "seem_per_10k": 0.29,
+      "maybe_per_10k": 0.57
+    },
+    "sensory": {
+      "L1_total": 171,
+      "L2_clothing": 56,
+      "L3_total": 57,
+      "L4_total": 102,
+      "L5_atmosphere": 2,
+      "L6_dialogue": 56,
+      "L7_aftermath": 3,
+      "total_welfare": 447,
+      "welfare_density": 3.12,
+      "vip_keywords": 93,
+      "vip_density": 0.65
+    }
+  },
+  "穿越火线之兵行天下": {
+    "author": "纯阳金丹",
+    "fingerprint": {
+      "chars": 3133045,
+      "chapters": 3987,
+      "comma_per_k": 54.73,
+      "period_per_k": 17.57,
+      "excl_per_k": 6.62,
+      "ellipsis_per_k": 4.31,
+      "quest_per_k": 3.03,
+      "excl_per_ch": 5.2,
+      "ell_per_ch": 3.39,
+      "avg_sent": 38.3,
+      "long_pct": 55.2,
+      "seem_per_10k": 0.61,
+      "maybe_per_10k": 0.81
+    },
+    "sensory": {
+      "L1_total": 1376,
+      "L2_clothing": 78,
+      "L3_total": 91,
+      "L4_total": 254,
+      "L5_atmosphere": 50,
+      "L6_dialogue": 29,
+      "L7_aftermath": 40,
+      "total_welfare": 1918,
+      "welfare_density": 6.12,
+      "vip_keywords": 580,
+      "vip_density": 1.85
+    }
+  },
+  "丹药大亨": {
+    "author": "飘荡的云",
+    "fingerprint": {
+      "chars": 2865605,
+      "chapters": 1011,
+      "comma_per_k": 48.65,
+      "period_per_k": 10.38,
+      "excl_per_k": 0.35,
+      "ellipsis_per_k": 0.83,
+      "quest_per_k": 1.39,
+      "excl_per_ch": 0.98,
+      "ell_per_ch": 2.35,
+      "avg_sent": 78.2,
+      "long_pct": 89.4,
+      "seem_per_10k": 0.76,
+      "maybe_per_10k": 0.37
+    },
+    "sensory": {
+      "L1_total": 6278,
+      "L2_clothing": 1271,
+      "L3_total": 1479,
+      "L4_total": 1559,
+      "L5_atmosphere": 1250,
+      "L6_dialogue": 158,
+      "L7_aftermath": 39,
+      "total_welfare": 12034,
+      "welfare_density": 41.99,
+      "vip_keywords": 1673,
+      "vip_density": 5.84
+    }
+  },
+  "刀剑神皇": {
+    "author": "乱世狂刀01",
+    "fingerprint": {
+      "chars": 3806787,
+      "chapters": 44,
+      "comma_per_k": 65.62,
+      "period_per_k": 20.17,
+      "excl_per_k": 2.67,
+      "ellipsis_per_k": 2.87,
+      "quest_per_k": 3.23,
+      "excl_per_ch": 231.05,
+      "ell_per_ch": 247.91,
+      "avg_sent": 37.9,
+      "long_pct": 44.3,
+      "seem_per_10k": 1.02,
+      "maybe_per_10k": 0.62
+    },
+    "sensory": {
+      "L1_total": 2328,
+      "L2_clothing": 293,
+      "L3_total": 190,
+      "L4_total": 838,
+      "L5_atmosphere": 157,
+      "L6_dialogue": 177,
+      "L7_aftermath": 11,
+      "total_welfare": 3994,
+      "welfare_density": 10.49,
+      "vip_keywords": 1716,
+      "vip_density": 4.51
+    }
+  },
+  "帝御山河": {
+    "author": "皇甫奇",
+    "fingerprint": {
+      "chars": 4635850,
+      "chapters": 4056,
+      "comma_per_k": 47.13,
+      "period_per_k": 34.49,
+      "excl_per_k": 5.78,
+      "ellipsis_per_k": 1.4,
+      "quest_per_k": 2.2,
+      "excl_per_ch": 6.6,
+      "ell_per_ch": 1.6,
+      "avg_sent": 27.4,
+      "long_pct": 29.2,
+      "seem_per_10k": 1.1,
+      "maybe_per_10k": 0.72
+    },
+    "sensory": {
+      "L1_total": 1302,
+      "L2_clothing": 79,
+      "L3_total": 112,
+      "L4_total": 441,
+      "L5_atmosphere": 108,
+      "L6_dialogue": 123,
+      "L7_aftermath": 34,
+      "total_welfare": 2199,
+      "welfare_density": 4.74,
+      "vip_keywords": 1084,
+      "vip_density": 2.34
+    }
+  },
+  "独步山河": {
+    "author": "胡鳕",
+    "fingerprint": {
+      "chars": 1529090,
+      "chapters": 1933,
+      "comma_per_k": 64.69,
+      "period_per_k": 11.76,
+      "excl_per_k": 1.33,
+      "ellipsis_per_k": 3.18,
+      "quest_per_k": 2.76,
+      "excl_per_ch": 1.05,
+      "ell_per_ch": 2.52,
+      "avg_sent": 57.9,
+      "long_pct": 70.5,
+      "seem_per_10k": 0.7,
+      "maybe_per_10k": 0.59
+    },
+    "sensory": {
+      "L1_total": 356,
+      "L2_clothing": 42,
+      "L3_total": 94,
+      "L4_total": 221,
+      "L5_atmosphere": 54,
+      "L6_dialogue": 83,
+      "L7_aftermath": 22,
+      "total_welfare": 872,
+      "welfare_density": 5.7,
+      "vip_keywords": 503,
+      "vip_density": 3.29
+    }
+  },
+  "符皇": {
+    "author": "萧瑾瑜",
+    "fingerprint": {
+      "chars": 6985043,
+      "chapters": 1973,
+      "comma_per_k": 71.12,
+      "period_per_k": 18.49,
+      "excl_per_k": 6.06,
+      "ellipsis_per_k": 1.95,
+      "quest_per_k": 3.64,
+      "excl_per_ch": 21.47,
+      "ell_per_ch": 6.9,
+      "avg_sent": 37.0,
+      "long_pct": 58.4,
+      "seem_per_10k": 0.38,
+      "maybe_per_10k": 0.63
+    },
+    "sensory": {
+      "L1_total": 1718,
+      "L2_clothing": 335,
+      "L3_total": 266,
+      "L4_total": 1222,
+      "L5_atmosphere": 88,
+      "L6_dialogue": 114,
+      "L7_aftermath": 19,
+      "total_welfare": 3762,
+      "welfare_density": 5.39,
+      "vip_keywords": 3066,
+      "vip_density": 4.39
+    }
+  }
+}
