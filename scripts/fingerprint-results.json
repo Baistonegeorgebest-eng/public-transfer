@@ -8763,5 +8763,50 @@
     "long_pct": 42.2,
     "welfare_density": 13.09,
     "vip_density": 0.48
+  },
+  {
+    "name": "道诡异仙（校对版）",
+    "author": "狐尾的笔",
+    "size_bytes": 7144234,
+    "total_chars": 2402302,
+    "lines": 59621,
+    "filepath": "novel-txts/道诡异仙（校对版）.txt",
+    "source": "user_downloaded"
+  },
+  {
+    "name": "赤心巡天",
+    "author": "情何以甚",
+    "size_bytes": 34861023,
+    "total_chars": 13077111,
+    "lines": 718732,
+    "filepath": "novel-txts/赤心巡天.txt",
+    "source": "user_downloaded"
+  },
+  {
+    "name": "万界仙王",
+    "author": "西门飘血",
+    "size_bytes": 18070845,
+    "total_chars": 14258561,
+    "lines": 544287,
+    "filepath": "novel-txts/万界仙王.txt",
+    "source": "user_downloaded"
+  },
+  {
+    "name": "一世剑仙",
+    "author": "棠鸿羽",
+    "size_bytes": 6313292,
+    "total_chars": 5001309,
+    "lines": 129166,
+    "filepath": "novel-txts/一世剑仙.txt",
+    "source": "user_downloaded"
+  },
+  {
+    "name": "不灭神王(观棋)",
+    "author": "观棋",
+    "size_bytes": 7957637,
+    "total_chars": 6404248,
+    "lines": 110925,
+    "filepath": "novel-txts/不灭神王(观棋).txt",
+    "source": "user_downloaded"
   }
 ]

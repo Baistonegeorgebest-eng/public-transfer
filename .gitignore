@@ -1,3 +1,6 @@
 *.txt
 novel-txts/
 novel-skills*.tar.gz
+译本/
+*.DS_Store
+novel-corpus-analysis/.DS_Store
