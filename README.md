@@ -25,12 +25,13 @@ novel-corpus-analysis/
 │   ├── download*.py           #   小说下载
 │   ├── visualize*.py          #   可视化
 │   └── generate-docx*.js      #   DOCX生成
-├── docs/                      # 31个项目文档
-│   ├── HANDOFF-*.md           #   交接文件
-│   ├── NARRATIVE-STATUS-*.md  #   叙事分析状态总览
+├── docs/                      # 项目文档
+│   ├── STATUS.md              #   ⭐ 唯一进度源（覆盖率+作者完成表+待做队列）
+│   ├── HANDOFF.md             #   ⭐ 唯一交接文件（上次完成+下次任务+已知问题）
 │   ├── human-protocol-v5.0.md #   人味注入协议 v5.0
 │   ├── 感官库-v2.0.md         #   感官库
-│   └── 福利感官库-v2.0.md     #   福利感官库
+│   ├── 福利感官库-v2.0.md     #   福利感官库
+│   └── archive/               #   旧交接文件归档（15份历史记录）
 ├── reference/                 # 25个参考数据
 │   ├── fingerprint-table-v4.*.md    # 指纹表
 │   ├── human-flavor-protocol-v3~4.*.md  # 人味协议历史版本
@@ -43,6 +44,9 @@ novel-corpus-analysis/
 ## 深度分析覆盖
 
 ### 作者进化线（已全量重做）
+- **榴弹怕水**（3本）：覆汉/绍宋/汉阙 + 进化线跨作者对标（2026-05-14）
+- **猪头七**（8本）：球王贝斯特/进球万岁/球场教父等 + 三阶段进化模型（2026-05-13）
+- **林海听涛**（7本）：天生废柴/我们是冠军/冠军之心等 + 克制叙事进化（2026-05-13）
 - **皇甫奇**（6本）：飞升之后/大周皇族/人皇纪/帝御山河/神座/无上真魔
 - **zhttty**（6本）：无限恐怖/无限曙光/无限未来/大宇宙时代/死亡开端/魔法世纪
 - **唐家三少**（11本）：斗罗系列/神印王座/天珠变/琴帝/狂神等
@@ -54,6 +58,7 @@ novel-corpus-analysis/
 ### 单本深度分析（>15KB）
 - 斗破苍穹（31KB）· 仙侠双壁-遮天仙逆对比（28KB）· 道诡异仙（23KB）
 - 全职高手（22KB）· 惊悚乐园（21KB）· 邪龙道三部曲（21KB）
+- 汉阙（38KB）· 绍宋（40KB）· 覆汉（38KB）（2026-05-14 新增）
 - 唐砖（20KB）· 冒牌大英雄（16KB）· 苟在妖武（15KB）等
 
 ### 品类分析
@@ -83,6 +88,23 @@ GIT_SSH_COMMAND="ssh -i ~/.ssh/.github_miclaw -o StrictHostKeyChecking=no -o Con
 - 路径：`~/.ssh/.github_miclaw`
 - Git config：`bot@openclaw.ai` / `OpenClaw Bot`
 
+### 交接协议（2026-05-14 建立）
+
+**核心规则：只维护两个文件，不再新建日期后缀文件。**
+
+| 文件 | 用途 | 更新时机 |
+|------|------|---------|
+| `docs/STATUS.md` | 覆盖率+37位作者完成表+待做队列+操作备忘 | 有新作者完成时 |
+| `docs/HANDOFF.md` | 上次session完成内容+下次任务+已知问题 | 每次session结束时 |
+
+**Session流程**：
+1. 开始 → 读 `STATUS.md` + `HANDOFF.md`
+2. 执行任务
+3. 结束 → 更新 `HANDOFF.md`（完成内容+下次任务），有新作者完成则同步更新 `STATUS.md`
+4. `git add` + `git commit` + `git push`
+
+旧交接文件（15份）已归档至 `docs/archive/` 和 `novel-corpus-analysis/docs/archive/`。
+
 ## 教训记录
 
 1. **永远不要把整个 workspace 文件夹推到 git** — 只推送项目文件
@@ -93,4 +115,4 @@ GIT_SSH_COMMAND="ssh -i ~/.ssh/.github_miclaw -o StrictHostKeyChecking=no -o Con
 
 ---
 
-_Last updated: 2026-05-12 19:30 GMT+8_
+_Last updated: 2026-05-14 11:24 GMT+8_
