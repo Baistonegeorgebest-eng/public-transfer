@@ -28,10 +28,10 @@
 
 ```
 novel-corpus-analysis/
-├── analysis-*.md              # 999份分析报告
-│   ├── analysis-*.md          #   常规分析（10KB+）
-│   ├── analysis-*-deep.md     #   深度统计分析（3KB，标点/感官/句式）
-│   └── analysis-*-进化*.md    #   作者进化线
+├── analysis/                    # 999份分析报告
+│   ├── analysis-*.md            #   常规分析（10KB+）
+│   ├── analysis-*-deep.md       #   深度统计分析（3KB，标点/感官/句式）
+│   └── analysis-*-进化*.md      #   作者进化线
 ├── scripts/                   # 28个分析脚本
 │   ├── analyze*.py            #   标点分析/深度提取
 │   ├── extract*.py            #   感官/福利/句式提取
