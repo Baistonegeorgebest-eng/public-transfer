@@ -112,28 +112,31 @@ c5e7c38 路1⬜→✅升级：爱潜水的乌贼2本+滚开1本+风凌天下3本
    - 新增路4译本的感官描写分析
    - 更新品类福利感官特征
 
-**第三阶段：Novel Skills升级（基于v1.18.2规划）**
+**第三阶段：Novel Skills升级（基于v1.18.2评估报告）**
 
-基于322本全覆盖分析数据，升级novel skills：
+> 评估报告：`~/Desktop/novel skills优化/novel-skills-v1.18.2-evaluation.md`
 
-1. **更新examples**
-   - 从37本🏆现象级分析中提取最佳示例
-   - 更新品类标点指纹示例
-   - 更新情绪结构示例
+基于322本全覆盖分析数据 + v1.18.2评估报告，升级novel skills：
 
-2. **合并新人味协议**
-   - 将v6.0人味协议整合到skills中
-   - 更新标点指纹数据库引用
-   - 更新品类标点指纹引用
+1. **v1.18.3任务（1周内）**
+   - 废弃human-flavor-tiers+anti-ai-taste（已并入human-flavor v1.18.2）
+   - 更新expert-hook示例（注入v4.4开局模式+文抄公公式）
+   - 更新expert-dialogue（注入四种博弈类型）
+   - 更新expert-emotion（注入江南式悲凉叙事）
+   - 合并writing-style+style-learner
 
-3. **合并skills**
-   - 检查novel-skills-v1.17.1与v1.18.x的差异
-   - 合并新expert skills
-   - 更新SKILL.md引用
+2. **v1.19.0任务（2周内）**
+   - 搭建自动质检脚本（复用public-transfer的scripts/）
+   - 更新expert-character（注入角色DNA卡）
+   - 更新expert-combat（注入严肃度锚定）
+   - 更新expert-pacing（注入弹性叙事模板）
+   - skill精简合并（71→40-45个）
 
-4. **翻译文学skill**
-   - 基于路4方法论创建翻译文学分析skill
-   - 包含TCI计算、译者指纹、合集检验
+3. **数据注入源**
+   - 人味协议v5.0：标点指纹+情绪结构+品类指纹
+   - 感官库v2.0：五感权重+品类感官特征
+   - 37本🏆现象级分析：段落举例+手法拆解+钩子机制
+   - 路4译本分析：翻译腔指数TCI+译者指纹
 
 ### 关键文件清单
 
@@ -161,20 +164,31 @@ c5e7c38 路1⬜→✅升级：爱潜水的乌贼2本+滚开1本+风凌天下3本
 | novel-skills-v1.17.1 | `novel-skills/novel-skills-v1.17.1/` | 旧版本 |
 | v1.18.0/1.18.1 tar包 | `skills-pack_personal/novel-skills-v1.18.*.tar.gz` | 旧版本 |
 
-### 本地已安装的novel skills
+### 本地已安装的novel skills（v1.18.2）
 
-| skill | 路径 | 版本 |
+| skill | 路径 | 版本 | 状态 |
+|------|------|------|------|
+| expert-human-flavor | `~/.qclaw/skills/expert-human-flavor/` | v1.18.2 | ✅ 已重构（410行+3新references） |
+| novel-expert-system | `~/.qclaw/skills/novel-expert-system/` | v3.4 | ✅ |
+| novel-writing-expert | `~/.qclaw/skills/novel-writing-expert/` | - | ✅ |
+| novel-volume-workflow | `~/.qclaw/skills/novel-volume-workflow/` | - | ✅ |
+| novel-quality-checker | `~/.qclaw/skills/novel-quality-checker/` | - | ✅ |
+| novel-memory-3layer | `~/.qclaw/skills/novel-memory-3layer/` | - | ✅ |
+| novel-project-starter | `~/.qclaw/skills/novel-project-starter/` | - | ✅ |
+| novel-experience-db | `~/.qclaw/skills/novel-experience-db/` | - | ✅ |
+| novel-expert-system-agent-qc | `~/.qclaw/skills/novel-expert-system-agent-qc/` | - | ✅ |
+| novel-expert-system-crossover | `~/.qclaw/skills/novel-expert-system-crossover/` | - | ✅ |
+| novel-expert-system-techniques | `~/.qclaw/skills/novel-expert-system-techniques/` | - | ✅ |
+| expert-anti-ai-taste | `~/.qclaw/skills/expert-anti-ai-taste/` | - | ⏳ v1.18.3废弃 |
+| expert-human-flavor-tiers | `~/.qclaw/skills/expert-human-flavor-tiers/` | - | ⏳ v1.18.3废弃 |
+
+### v1.18.2新增references（已安装）
+
+| 文件 | 大小 | 内容 |
 |------|------|------|
-| novel-expert-system | `~/.qclaw/skills/novel-expert-system/` | v3.4 (2026-05-10) |
-| novel-writing-expert | `~/.qclaw/skills/novel-writing-expert/` | - |
-| novel-volume-workflow | `~/.qclaw/skills/novel-volume-workflow/` | - |
-| novel-quality-checker | `~/.qclaw/skills/novel-quality-checker/` | - |
-| novel-memory-3layer | `~/.qclaw/skills/novel-memory-3layer/` | - |
-| novel-project-starter | `~/.qclaw/skills/novel-project-starter/` | - |
-| novel-experience-db | `~/.qclaw/skills/novel-experience-db/` | - |
-| novel-expert-system-agent-qc | `~/.qclaw/skills/novel-expert-system-agent-qc/` | - |
-| novel-expert-system-crossover | `~/.qclaw/skills/novel-expert-system-crossover/` | - |
-| novel-expert-system-techniques | `~/.qclaw/skills/novel-expert-system-techniques/` | - |
+| `references/tier-prompts.md` | 6KB | T1/T2/T3完整prompt模板+质检指标 |
+| `references/quality-degradation.md` | 7KB | 人味指数13项+退化检测流程+严肃度-标点锚定表 |
+| `references/style-reference.md` | 16KB | 33本参考小说风格DNA+标点指纹+叙事方法论 |
 
 ---
 
