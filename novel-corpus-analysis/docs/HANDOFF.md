@@ -156,8 +156,25 @@ c5e7c38 路1⬜→✅升级：爱潜水的乌贼2本+滚开1本+风凌天下3本
 | 福利感官库v2.0 | `docs/福利感官库-v2.0.md` | 当前版本 |
 | 翻译文学方法论 | `docs/翻译文学分析方法论-v1.0.md` | 路4专用 |
 | 指纹表v4.4 | `reference/fingerprint-table-v4.4.md` | 当前版本 |
-| novel-skills-v1.17.1 | `novel-skills/novel-skills-v1.17.1/` | 当前版本 |
-| v1.18.0/1.18.1 tar包 | `skills-pack_personal/novel-skills-v1.18.*.tar.gz` | 待合并 |
+| novel-skills-v1.32 | `~/novel-skills-v1.32/` | 本地最新版本（已安装） |
+| novel-skills-v1.31 | `~/novel-skills-v1.31/` | 本地版本 |
+| novel-skills-v1.17.1 | `novel-skills/novel-skills-v1.17.1/` | 旧版本 |
+| v1.18.0/1.18.1 tar包 | `skills-pack_personal/novel-skills-v1.18.*.tar.gz` | 旧版本 |
+
+### 本地已安装的novel skills
+
+| skill | 路径 | 版本 |
+|------|------|------|
+| novel-expert-system | `~/.qclaw/skills/novel-expert-system/` | v3.4 (2026-05-10) |
+| novel-writing-expert | `~/.qclaw/skills/novel-writing-expert/` | - |
+| novel-volume-workflow | `~/.qclaw/skills/novel-volume-workflow/` | - |
+| novel-quality-checker | `~/.qclaw/skills/novel-quality-checker/` | - |
+| novel-memory-3layer | `~/.qclaw/skills/novel-memory-3layer/` | - |
+| novel-project-starter | `~/.qclaw/skills/novel-project-starter/` | - |
+| novel-experience-db | `~/.qclaw/skills/novel-experience-db/` | - |
+| novel-expert-system-agent-qc | `~/.qclaw/skills/novel-expert-system-agent-qc/` | - |
+| novel-expert-system-crossover | `~/.qclaw/skills/novel-expert-system-crossover/` | - |
+| novel-expert-system-techniques | `~/.qclaw/skills/novel-expert-system-techniques/` | - |
 
 ---
 
